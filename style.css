@@ -42,8 +42,7 @@ video {
   z-index: 1;
   font-family: "Raleway-ExtraBold";
   font-style: normal;
-  font-size: 8rem;
-  line-height: 8rem;
+  font-size: 110px;
   text-align: center;
   letter-spacing: 0.035em;
   text-transform: uppercase;
@@ -52,24 +51,24 @@ video {
 }
 
 .title:hover::before {
-  content: "\AНа самом деле нет.\AВажнее &mdash; научиться ошибаться.";
+  content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   z-index: 2;
+  white-space: pre-wrap;
   position: absolute;
   width: 45%;
   height: 14%;
   left: 52%;
   top: 22%;
+  padding: 10px;
   color: #000000;
   background: #ffffff;
   border: 2px solid #000000;
   border-radius: 20px;
   box-shadow: 0px 10px 0px rgba(0, 0, 0, 1);
   font-family: "Raleway-Regular";
-  font-style: normal;
-  text-transform: capitalize;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 2vh;  
   text-align: left;
+  text-transform: capitalize;
 }
 
 .title::after {
